@@ -1,0 +1,8 @@
+note over browser:
+browser executes event handler function in spa.js 
+to fetch the note from the form, add it to the notes list,
+re-render the notes list and send the note to the server
+end note
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+server-->browser: status code 302
